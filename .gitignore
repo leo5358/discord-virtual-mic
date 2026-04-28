@@ -1,6 +1,1 @@
-build/
-.idea/
-.venv/
-dist/
-main.spec
-src/__pycache__/
+.venv

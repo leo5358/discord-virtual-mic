@@ -39,6 +39,11 @@ winget install ffmpeg
 sudo apt install ffmpeg
 ```
 
+* macOS:
+```commandline
+brew install ffmpeg
+```
+
 ## Discord Microphone Setup
 
 Make sure you change to virtual microphone.
@@ -77,6 +82,20 @@ https://vb-audio.com/Cable/
 sudo apt install ffmpeg
 ```
 
+## Tkinter installation
+* macOS:
+```commandline
+# please adjust based on your python version
+brew install python-tk@3.12 tcl-tk 
+```
+
+* Ubuntu / Debian:
+```commandline
+sudo apt update
+sudo apt install python3-tk ffmpeg
+```
+
+
 ## Create Virtual Environment
 
 > I recommend you to use python3.12 to avoid any incompatible issue.
@@ -90,6 +109,12 @@ source .venv/bin/activate
 
 ```commandline
 pip install sounddevice numpy gtts pydub
+```
+
+or 
+
+```commandline
+pip install -r requirements.txt
 ```
 
 ## Run Program
