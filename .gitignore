@@ -1,1 +1,28 @@
-.venv
+# Python 自動產生的檔案
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 虛擬環境 (包含你目前的與常見命名)
+.venv/
+venv/
+env/
+ENV/
+
+# 打包工具 (PyInstaller)
+build/
+dist/
+*.spec
+
+# IDE 與編輯器設定
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# 作業系統暫存檔
+.DS_Store
+Thumbs.db
+
+# 紀錄檔
+*.log
