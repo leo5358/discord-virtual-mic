@@ -4,6 +4,19 @@
 >Vibe coding using claude\
 >IMPORTANT: This program use gtts, if you are holding private conversation, you may need to check the gtts privacy policy.
 
+## Contribute to this repo
+
+* add issues
+* comment to accept the issues, fork this repo and pull request.
+
+Once your pull request is accepted, your picture will be shown in the contributor list.
+
+## Contributors
+
+<a href="https://github.com/shiuintw/discord-virtual-mic/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=shiuintw/discord-virtual-mic" />
+</a>
+
 # How to Use
 
 ## Install Virtual Cable
@@ -85,7 +98,6 @@ sudo apt install ffmpeg
 ## Tkinter installation
 * macOS:
 ```commandline
-# please adjust based on your python version
 brew install python-tk@3.12 tcl-tk 
 ```
 
@@ -106,12 +118,6 @@ source .venv/bin/activate
 ```
 
 ## Package Installation
-
-```commandline
-pip install sounddevice numpy gtts pydub
-```
-
-or 
 
 ```commandline
 pip install -r requirements.txt
